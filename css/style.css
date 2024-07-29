@@ -1,0 +1,544 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color:#1C3334;
+    width: 200px;
+    height: 800px;
+    font-family:'fira sans',sans-serif;
+}
+.sidebar nav{
+    padding:20px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-style: 40px;
+    padding: 15px 0;;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+   
+}
+
+a:hover{
+    background-color:rgb(224, 16, 16);
+}
+
+
+.main{
+    background-color: white;
+    width:90vw;
+}
+.container{
+    display:flex;
+
+}
+.infoContainer{
+    background:linear-gradient(144deg, rgba(126,39,156,1) 0%, rgba(49,39,157,1) 49%) ;
+    height: 58vh;
+    width:80vw;
+    margin:144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    
+    height: 80vh;
+    width: 500px;
+    padding: 60px 80px;
+}
+
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hello{
+    font-size: 30px;
+}
+.name{
+    font-size: 40px;
+    font-weight:bold ;
+}
+.about{
+    font-size: 30px;
+    margin-top: 34px;
+    
+}
+
+.buttons button{
+    margin-top: 34px;
+    padding: 10px;
+    border-radius:22px ;
+    padding: 9px 14px;
+    color: white;
+    margin: 0 3px;
+    background-color: #F44770;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+
+  
+}
+.buttons button:hover{
+    background-color: white;
+    color:#F44770;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.moreabout{
+    font-size: 19px;
+    
+}
+
+.contactform h1{
+    font-family: 'source code pro',monospace;
+    text-align: center;
+
+
+}
+
+.contactform{
+    font-family:'fira sans',sans-serif;
+    padding-top: 144px ;
+    padding: 0 34px;
+
+
+}
+
+.contactform form div{
+    padding:10px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailhelp{
+    font-size:8px ;
+    color:midnightblue ;
+    margin: 0 5px;
+}
+.contactform form div{
+    width:16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000718; 
+}
+body, input,textarea, a{
+    font-family: 'Roboto', sans-serif;
+}
+#section-wrapper{
+    width: 100%;
+    padding: 10px;
+}
+.box-wrapper{
+    position: relative;
+    display: table;
+    width:1100px;
+    margin:auto;
+    margin-top:35px;
+    border-radius: 30px;
+}
+.info-wrap{
+    width:35%;
+    height: 551px;
+    padding: 40px;
+    float: left;
+    display: block;
+    border-radius: 30px 0px 0px 30px;
+    background: linear-gradient(144deg, rgba(126,39,156,1) 0%, rgba(49,39,157,1) 49%);
+    color: #fff;
+}
+.info-title{
+    text-align: left;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+.info-sub-title{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 17px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+}
+.info-details {
+    list-style: none;
+    margin: 60px 0px;
+}
+.info-details li {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+.info-details li i {
+    background: #F44770;
+    padding: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.info-details li a {
+    color: #fff;
+    text-decoration: none;
+}
+.info-details li a:hover {
+    color: #F44770;
+}
+.social-icons {
+    list-style: none;
+    text-align: center;
+    margin: 20px 0px;
+}
+.social-icons li {
+    display: inline-block;
+}
+.social-icons li i {
+    background: #F44770;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.social-icons li i:hover {
+    background: #fff;
+    color: #000000;
+}
+.form-wrap{
+    width:65%;
+    float: right;
+    padding:40px 25px 35px 25px;
+    border-radius: 0px 30px 30px 0px;
+    background: #ecf0f3;
+}
+.form-title{
+    text-align: left;
+    margin-left: 23px;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+.form-fields{
+    display: table;
+    width: 100%;
+    padding: 15px 5px 5px 5px;
+}
+.form-fields input,
+.form-fields textarea{
+    border: none;
+    outline:none;
+    background: none;
+    font-size: 18px;
+    color:#555;
+    padding: 20px 10px 20px 5px;
+    width:100%
+}
+.form-fields textarea{
+    height: 150px;
+    resize: none;
+}
+.form-group{
+    width: 46%;
+    float: left;
+    padding: 0px 30px;
+    margin: 14px 12px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.form-fields .form-group:last-child {
+    width: 96%;
+}
+.submit-button{
+    width: 96%;
+    height: 60px;
+    margin: 0px 12px;
+    border-radius: 30px;
+    font-size: 20px;;
+    font-weight: 700;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    color:#fff;
+    text-align: center;
+    background: #F44770;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: .5s;
+}
+.submit-button:hover{
+    background: #31279d;
+}
+
+
+/* Responsive css */
+
+@media only screen and (max-width: 767px) {
+    .box-wrapper{
+        width: 100%;
+    }
+    .info-wrap,
+    .form-wrap{
+        width: 100%;
+        height: inherit;
+        float: none;  
+    }
+    .info-wrap{
+        border-radius: 30px 30px 0px 0px;
+    }
+    .form-wrap{
+        border-radius: 0px 0px 30px 30px;
+    }
+    .form-group{
+        width: 100%;
+        float: none;
+        margin: 25px 0px;
+    }
+    .form-fields .form-group:last-child, 
+    .submit-button{
+        width: 100%;
+    }
+    .submit-button{
+        margin: 10px 0px;
+    }
+   
+}
+.background-image{
+    display:flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.overlays{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0,5);
+}
+
+
+
+/*about me*/
+
+
+.skill{
+    width:265px;
+    height: 8px;
+    background-color:red ;
+    border: 2px solid black;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem{
+    display:flex;
+    align-items:center;
+    font-family: 'source code pro',monospace;
+    margin-top: 15px;
+}
+
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width:125px;
+    background-color:violet ;
+}
+.t5{
+    width:75px;
+    background-color: yellow;
+    text-align: left;
+}
+.p1{
+    margin-top: 20px;
+    
+}
+
+
+
+
+  /*Resume*/
+
+  .nav{
+    text-align:center;
+  }
+  .para{
+    margin-top: 34px;
+
+  }
+  .nava{
+    margin-top: 34px;
+
+  }
+
+  /* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+}
+
+.left-side{
+    width: 60%; /* Adjust width as needed */
+    padding: 5px;
+    float: right;
+    margin-top: 36px;
+    
+}
+
+.right-side{
+    width: 50%; /* Adjust width as needed */
+    height: 50px;
+    padding: 5px;
+    float:left;
+}
+.web{
+    margin-top: 36px;
+
+}
+.tea{
+    
+    text-align:center;
+    padding:20px 10px ;
+}
+
+
+.left-sid{
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    float: right;
+    margin-top: 36px;
+    
+}
+
+.right-sid{
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    float:left;
+}
+.info{
+    margin-top: 15px;
+}
+.city{
+    margin-top: 15px;
+    
+}
+.email{
+    margin-top: 15px;
+
+}
+.right{
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    float:left;
+   
+    
+    
+
+}
+.left{
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    float: right;
+   
+
+}
+.free{
+    margin-top: 15px;
+}
+.age{
+    margin-top: 15px; 
+}
+.degree{
+    margin-top: 15px; 
+
+}
+
+
+
+.icon {
+    width: 10px;
+    height: 10px;
+    fill: currentColor; /* Can be styled like any other element */
+  }
+  .raj{
+    height: 5px;
+    width: 5px;
+  }
+   .photo{
+    height: 5px;
+    width: 5px;
+
+   }
+
+   .logo img {
+   
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; 
+   }
+
+   
+
+.social-icons {
+    display: flex;
+    gap: 5px; /* Adjust spacing between icons */
+}
+
+.social-icons img {
+    width: 35px; /* Adjust icon size */
+    height: auto;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.social-icons img:hover {
+    opacity: 0.7; /* Example: Reduce opacity on hover */
+}
+.icon-container {
+    padding-right: 20px; /* Adjust the value as needed */
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the image does not overflow the circle */
+}
+
+
+  
